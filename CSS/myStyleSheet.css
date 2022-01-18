@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed&display=swap');
+body{
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.container{
+    
+    padding: 0;
+}
+header{
+    margin: 0 auto;
+    height: 100px;
+    background : linear-gradient(#8a8787, #0a0909);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+}
+h1, h3{
+    color: beige;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.main{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    z-index: 1;
+
+    
+}
+
+.kepJobb {
+    transform: rotate(10deg);       
+}
+#select{
+    width: 300px;
+}
+#input{
+    width: 300px;
+    margin: 0 auto;
+}
+.content{
+    font-size: 25px;
+    text-align: center;
+}
+.kepBal {
+    transform: rotate(-10deg);       
+}
+img{
+    max-height: 300px;
+}
+footer{
+    margin: 0 auto;
+    height: 100px;
+    background : linear-gradient( #0a0909,#8a8787);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 800px;
+}
+#result{
+    width: 300px;
+    
+    margin:0 auto;
+}
+.inputDiv{
+    margin-top: 10px;
+}
+.gombDoboz{
+    margin-top: 10px;
+}
+
+#result{
+    margin-top: 15px;
+}
