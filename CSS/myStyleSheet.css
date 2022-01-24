@@ -46,7 +46,8 @@ h1, h3{
     text-align: center;
 }
 .kepBal {
-    transform: rotate(-10deg);       
+    transform: rotate(-10deg);
+     transform: scale(-1,0);  
 }
 img{
     max-height: 300px;
