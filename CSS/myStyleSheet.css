@@ -25,6 +25,7 @@ header {
 }
 h1 a{
     text-decoration: none;
+    text-align: center;
     color: rgba(245, 222, 179,0.8);   
 }
 h1 a:hover{
