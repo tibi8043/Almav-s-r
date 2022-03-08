@@ -1,77 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed&display=swap');
-body{
-    margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Roboto+Condensed&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto Condensed", sans-serif;
 }
-.container{
-    
-    padding: 0;
+.container {
+  padding: 0;
 }
-header{
-    margin: 0 auto;
-    height: 100px;
-    background : linear-gradient(#8a8787, #0a0909);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 800px;
+header {
+  margin: 0 auto;
+  height: 100px;
+  background: linear-gradient(#8a8787, #0a0909);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 66vw;
 }
-h1, h3{
-    color: beige;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+#menu a{
+    text-decoration: none;
+    color: rgba(245, 222, 179,0.8);   
 }
-.main{
-    margin: 100px auto;
-    display: flex;
-    justify-content: space-between;
-    max-width: 1000px;
-    z-index: 1;
+#menu a:hover{
+    text-decoration: none;
+    color: rgba(245, 222, 179);   
+}
+h1 a{
+    text-decoration: none;
+    color: rgba(245, 222, 179,0.8);   
+}
+h1 a:hover{
+    text-decoration: none;
+    color: rgba(245, 222, 179);   
+}
+#menu {
+  margin: 0 auto;
 
-    
+  background: linear-gradient(#0a0909, #830202);
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  width: 66vw;
+  height: 5vh;
+  
+}
+li{
+list-style-image: url(../Images/arrow-right.svg);
+}
+.menuPont {
+    text-align: center;
+    width: 33vw;
+}
+h1,
+h3 {
+  color: beige;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 50px;
+}
+.main {
+  margin: 100px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 300vw;
+  z-index: 1;
 }
 
 .kepJobb {
-    transform: rotate(10deg);       
+  transform: rotate(10deg);
 }
-#select{
-    width: 300px;
+#select {
+  width: 300px;
 }
-#input{
-    width: 300px;
-    margin: 0 auto;
+#input {
+  width: 300px;
+  margin: 0 auto;
 }
-.content{
-    font-size: 25px;
-    text-align: center;
+.content {
+  font-size: 25px;
+  text-align: center;
+  width: 33vw;
 }
 .kepBal {
-    transform: rotate(-10deg);       
+  transform: rotate(-15deg);
 }
-img{
-    max-height: 300px;
+#almaTukros {
+  transform: scaleX(-1);
 }
-footer{
-    margin: 0 auto;
-    height: 100px;
-    background : linear-gradient( #0a0909,#8a8787);
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    width: 800px;
+img {
+  max-height: 300px;
 }
-#result{
-    width: 300px;
-    
-    margin:0 auto;
+footer {
+  margin: 0 auto;
+  height: 100px;
+  background: linear-gradient(#0a0909, #8a8787);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 800px;
 }
-.inputDiv{
-    margin-top: 10px;
+#result {
+  width: 300px;
+
+  margin: 0 auto;
 }
-.gombDoboz{
-    margin-top: 10px;
+.inputDiv {
+  margin-top: 10px;
+}
+.gombDoboz {
+  margin-top: 10px;
 }
 
-#result{
-    margin-top: 15px;
+#result {
+  margin-top: 15px;
 }
